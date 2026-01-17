@@ -1,0 +1,24 @@
+site_name: Knowledge Base
+site_url: https://github.com/javidsun/engineering_notes.git
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/index.md
+  - Backend:
+      - Overview: backend/index.md
+  - DevOps:
+      - Overview: devops/index.md
+  - Security:
+      - Overview: security/index.md
+  - Projects:
+      - Overview: projects/index.md
